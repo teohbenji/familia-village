@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/qr_scanner"
-    tools:context=".HomePage">
+    tools:context=".QRCodePage">
 
     <Button
-        android:id="@+id/award1"
+        android:id="@+id/back"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="70dp"
         android:layout_height="70dp"
