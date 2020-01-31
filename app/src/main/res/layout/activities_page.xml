@@ -8,6 +8,19 @@
     android:background="@drawable/activites_page"
     tools:context=".ActivitiesPage">
 
+    <Button
+        android:id="@+id/backButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:background="@drawable/arrow_back_regular_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="415dp"
@@ -20,7 +33,7 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="162dp">
+            android:layout_height="142dp">
 
             <TextView
                 android:id="@+id/activityName2"
@@ -60,19 +73,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.531" />
-
-            <Button
-                android:id="@+id/backButton"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="50dp"
-                android:layout_height="48dp"
-                android:background="@drawable/arrow_back_regular_4"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.005"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.053" />
 
         </android.support.constraint.ConstraintLayout>
 
