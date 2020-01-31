@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/profile_page"
-    tools:context=".ProfilePage">
+    tools:context=".SettingsPage">
 
     <Button
         android:id="@+id/backButton"

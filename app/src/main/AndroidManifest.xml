@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivitiesPage"/>
-        <activity android:name=".ProfilePage"/>
+        <activity android:name=".SettingsPage"/>
         <activity android:name=".QRCodePage"/>
         <activity android:name=".RewardsPage"/>
         <activity android:name=".VillagePage"/>

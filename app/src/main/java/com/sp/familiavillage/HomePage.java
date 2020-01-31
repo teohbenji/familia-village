@@ -10,9 +10,42 @@ public class HomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
+        findViewById(R.id.settings).setOnClickListener(onSettings);
+        findViewById(R.id.village).setOnClickListener(onVillage);
+        findViewById(R.id.activities).setOnClickListener(onActivities);
         findViewById(R.id.awards).setOnClickListener(onRewards);
         findViewById(R.id.QR_scanner).setOnClickListener(onQR);
     }
+
+    public View.OnClickListener onSettings =  new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            intent = new Intent(HomePage.this, SettingsPage.class);
+            startActivity(intent);
+        }
+    };
+
+    public View.OnClickListener onVillage =  new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            intent = new Intent(HomePage.this, VillagePage.class);
+            startActivity(intent);
+        }
+    };
+
+    public View.OnClickListener onActivities =  new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            intent = new Intent(HomePage.this, ActivitiesPage.class);
+            startActivity(intent);
+        }
+    };
 
     public View.OnClickListener onRewards =  new View.OnClickListener() {
 
