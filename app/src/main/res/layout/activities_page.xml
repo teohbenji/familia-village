@@ -10,8 +10,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="422dp"
-        android:layout_height="746dp"
+        android:layout_width="415dp"
+        android:layout_height="616dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
