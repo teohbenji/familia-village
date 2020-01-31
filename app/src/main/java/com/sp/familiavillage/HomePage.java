@@ -19,7 +19,7 @@ public class HomePage extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent intent;
-            intent = new Intent(HomePage.this, QRCodePage.class);    //returns to home page
+            intent = new Intent(HomePage.this, QRCodePage.class);
             startActivity(intent);
         }
     };
