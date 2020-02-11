@@ -19,7 +19,7 @@
         <activity android:name=".ActivitiesPage"/>
         <activity android:name=".SettingsPage"/>
         <activity android:name=".QRCodePage"/>
-        <activity android:name=".RewardsPage"/>
+        <activity android:name=".RewardsHomePage"/>
         <activity android:name=".VillagePage"/>
     </application>
 

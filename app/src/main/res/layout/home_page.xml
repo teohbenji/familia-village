@@ -55,10 +55,10 @@
         android:background="@drawable/home_heart_solid_108"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.161"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        app:layout_constraintVertical_bias="0.275" />
 
     <Button
         android:id="@+id/awards"
@@ -71,7 +71,7 @@
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        app:layout_constraintVertical_bias="0.276" />
 
     <Button
         android:id="@+id/activities"
@@ -81,11 +81,10 @@
         android:background="@drawable/book_content_solid_08"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50
-"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        app:layout_constraintVertical_bias="0.276" />
 
     <EditText
         android:id="@+id/inputName"
@@ -104,7 +103,7 @@
         android:id="@+id/villageText"
         android:layout_width="72dp"
         android:layout_height="32dp"
-        android:text="village"
+        android:text="Village"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -117,7 +116,7 @@
         android:id="@+id/rewardsText"
         android:layout_width="84dp"
         android:layout_height="36dp"
-        android:text="rewards"
+        android:text="Rewards"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -130,7 +129,7 @@
         android:id="@+id/missionsText"
         android:layout_width="111dp"
         android:layout_height="32dp"
-        android:text="missions"
+        android:text="Missions"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

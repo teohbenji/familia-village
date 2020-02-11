@@ -10,7 +10,7 @@ public class VillagePage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.village_layout_page);
+        setContentView(R.layout.village_page);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 

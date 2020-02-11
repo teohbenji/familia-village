@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/rewards_page"
-    tools:context=".RewardsPage">
+    tools:context=".RewardsHomePage">
 
     <Button
         android:id="@+id/backButton"
@@ -64,7 +64,7 @@
                 android:id="@+id/rewardName1"
                 android:layout_width="164dp"
                 android:layout_height="30dp"
-                android:text="ABC Resturant"
+                android:text="ABC Restaurant"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -96,7 +96,7 @@
                 android:id="@+id/rewardName2"
                 android:layout_width="164dp"
                 android:layout_height="30dp"
-                android:text="ABC Resturant"
+                android:text="DEF Restaurant"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -141,7 +141,7 @@
                 android:id="@+id/rewardName3"
                 android:layout_width="164dp"
                 android:layout_height="30dp"
-                android:text="ABC Resturant"
+                android:text="GHI Restaurant"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

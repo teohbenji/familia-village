@@ -10,7 +10,7 @@ public class ActivitiesPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activities_page);
+        setContentView(R.layout.activities_home_page);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 

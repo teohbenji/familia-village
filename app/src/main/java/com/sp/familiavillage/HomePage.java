@@ -9,7 +9,7 @@ public class HomePage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.home_page);
         findViewById(R.id.settings).setOnClickListener(onSettings);
         findViewById(R.id.village).setOnClickListener(onVillage);
         findViewById(R.id.activities).setOnClickListener(onActivities);
@@ -52,7 +52,7 @@ public class HomePage extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent intent;
-            intent = new Intent(HomePage.this, RewardsPage.class);
+            intent = new Intent(HomePage.this, RewardsHomePage.class);
             startActivity(intent);
         }
     };

@@ -10,7 +10,7 @@ public class SettingsPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profile_page);
+        setContentView(R.layout.settings_page);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 

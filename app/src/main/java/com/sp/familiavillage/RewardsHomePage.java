@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class RewardsPage extends AppCompatActivity {
+public class RewardsHomePage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rewardspage);
+        setContentView(R.layout.rewards_foodie_page);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 
@@ -19,7 +19,7 @@ public class RewardsPage extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent intent;
-            intent = new Intent(RewardsPage.this, HomePage.class);
+            intent = new Intent(RewardsHomePage.this, HomePage.class);
             startActivity(intent);
         }
     };
