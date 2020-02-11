@@ -8,20 +8,6 @@
     android:background="@drawable/activites_page"
     tools:context=".ActivitiesPage">
 
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="359dp"
-        android:layout_height="86dp"
-        android:text="Select at least 2 activities per each category to complete this month to get extra 20xp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.074" />
-
     <Button
         android:id="@+id/backButton"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -66,11 +52,11 @@
 
             <TextView
                 android:id="@+id/category1"
-                android:layout_width="76dp"
-                android:layout_height="29dp"
-                android:text="Nature"
+                android:layout_width="253dp"
+                android:layout_height="28dp"
+                android:text="visit the zoo (+10xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteX="156dp"
                 tools:layout_editor_absoluteY="57dp" />
 
         </android.support.constraint.ConstraintLayout>
@@ -81,16 +67,16 @@
 
             <TextView
                 android:id="@+id/category2"
-                android:layout_width="177dp"
-                android:layout_height="33dp"
-                android:text="Active Lifestyle"
+                android:layout_width="255dp"
+                android:layout_height="69dp"
+                android:text="Visit Gardens by the Bay (+15xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.659"
+                app:layout_constraintHorizontal_bias="0.987"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.503" />
+                app:layout_constraintVertical_bias="0.526" />
 
             <Button
                 android:id="@+id/activities3"
@@ -117,16 +103,16 @@
 
             <TextView
                 android:id="@+id/category3"
-                android:layout_width="76dp"
-                android:layout_height="29dp"
-                android:text="Foodie"
+                android:layout_width="227dp"
+                android:layout_height="79dp"
+                android:text="Hike Bukit Timah Hill (+15xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintHorizontal_bias="0.75"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.604" />
+                app:layout_constraintVertical_bias="0.575" />
 
             <Button
                 android:id="@+id/activities1"
