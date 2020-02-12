@@ -8,6 +8,18 @@
     android:background="@drawable/activites_page"
     tools:context=".ActivitiesPage">
 
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="283dp"
+        android:layout_height="61dp"
+        android:text="activities are to be done as a family"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
     <Button
         android:id="@+id/backButton"
         style="@style/Widget.AppCompat.Button.Borderless"
