@@ -104,7 +104,7 @@
                 android:id="@+id/category3"
                 android:layout_width="227dp"
                 android:layout_height="79dp"
-                android:text="Hike Bukit Timah Hill (+15xp)"
+                android:text="Hike Bukit Timah Hill (+25xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
