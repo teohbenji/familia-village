@@ -39,7 +39,7 @@
             android:layout_height="142dp">
 
             <Button
-                android:id="@+id/natureButton"
+                android:id="@+id/tech_Button"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -52,7 +52,7 @@
                 app:layout_constraintVertical_bias="0.531" />
 
             <TextView
-                android:id="@+id/natureButton"
+                android:id="@+id/tech_text"
                 android:layout_width="145dp"
                 android:layout_height="43dp"
                 android:text="Technology"
@@ -71,7 +71,7 @@
             android:layout_height="162dp">
 
             <TextView
-                android:id="@+id/sportsButton"
+                android:id="@+id/lifestyle_Button"
                 android:layout_width="177dp"
                 android:layout_height="33dp"
                 android:text="Lifestyle"
@@ -84,7 +84,7 @@
                 app:layout_constraintVertical_bias="0.503" />
 
             <Button
-                android:id="@+id/sportsButton"
+                android:id="@+id/sports_text"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
