@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/rewards_page"
-    tools:context=".RewardsHomePage">
+    tools:context=".RewardsFoodiePage">
 
     <Button
         android:id="@+id/backButton"

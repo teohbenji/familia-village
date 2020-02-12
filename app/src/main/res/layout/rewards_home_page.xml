@@ -39,7 +39,7 @@
             android:layout_height="142dp">
 
             <Button
-                android:id="@+id/activities2"
+                android:id="@+id/natureButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -52,7 +52,7 @@
                 app:layout_constraintVertical_bias="0.531" />
 
             <TextView
-                android:id="@+id/category1"
+                android:id="@+id/natureButton"
                 android:layout_width="145dp"
                 android:layout_height="43dp"
                 android:text="Technology"
@@ -71,7 +71,7 @@
             android:layout_height="162dp">
 
             <TextView
-                android:id="@+id/category2"
+                android:id="@+id/sportsButton"
                 android:layout_width="177dp"
                 android:layout_height="33dp"
                 android:text="Lifestyle"
@@ -84,7 +84,7 @@
                 app:layout_constraintVertical_bias="0.503" />
 
             <Button
-                android:id="@+id/activities3"
+                android:id="@+id/sportsButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -107,7 +107,7 @@
             app:layout_constraintVertical_bias="0.001">
 
             <TextView
-                android:id="@+id/category3"
+                android:id="@+id/foodieButton"
                 android:layout_width="76dp"
                 android:layout_height="29dp"
                 android:text="Foodie"
@@ -120,7 +120,7 @@
                 app:layout_constraintVertical_bias="0.604" />
 
             <Button
-                android:id="@+id/activities1"
+                android:id="@+id/foodieButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
