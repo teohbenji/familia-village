@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/activites_page"
-    tools:context=".ActivitiesPage">
+    tools:context=".ActivitiesNaturePage">
 
     <Button
         android:id="@+id/backButton"
@@ -54,10 +54,13 @@
                 android:id="@+id/category1"
                 android:layout_width="253dp"
                 android:layout_height="28dp"
-                android:text="visit the zoo (+10xp)"
+                android:text="Visit the zoo (+10xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                tools:layout_editor_absoluteX="156dp"
-                tools:layout_editor_absoluteY="57dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </android.support.constraint.ConstraintLayout>
 
