@@ -12,7 +12,7 @@ public class RewardsHomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rewards_home_page);
-        findViewById(R.id.foodieRewardsButton).setOnClickListener(onFoodie);
+        findViewById(R.id.rewardsFoodieButton).setOnClickListener(onFoodie);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 

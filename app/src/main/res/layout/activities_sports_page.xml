@@ -6,8 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/activites_page"
-    tools:context=".RewardsHomePage">
+    tools:context=".ActivitiesSportsPage">
 
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="283dp"
+        android:layout_height="61dp"
+        android:text="activities are to be done as a family"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
 
     <Button
         android:id="@+id/backButton"
@@ -32,18 +43,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773">
+        app:layout_constraintVertical_bias="1.0">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="142dp">
 
             <Button
-                android:id="@+id/rewardsTechnologyButton"
+                android:id="@+id/activities2"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:background="@drawable/tech_icon"
+                android:background="@drawable/book_content_solid_08"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.206"
@@ -52,17 +63,16 @@
                 app:layout_constraintVertical_bias="0.531" />
 
             <TextView
-                android:id="@+id/naturetext"
-                android:layout_width="145dp"
-                android:layout_height="43dp"
-                android:text="Technology"
+                android:id="@+id/category1"
+                android:layout_width="253dp"
+                android:layout_height="28dp"
+                android:text="Go for a swim (+15xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.574"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.505" />
+                app:layout_constraintTop_toTopOf="parent" />
 
         </android.support.constraint.ConstraintLayout>
 
@@ -71,24 +81,24 @@
             android:layout_height="162dp">
 
             <TextView
-                android:id="@+id/textview222"
-                android:layout_width="177dp"
-                android:layout_height="33dp"
-                android:text="Lifestyle"
+                android:id="@+id/category2"
+                android:layout_width="255dp"
+                android:layout_height="69dp"
+                android:text="Play badminton (+15xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.659"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.503" />
+                app:layout_constraintVertical_bias="0.688" />
 
             <Button
-                android:id="@+id/rewardsLifestyleButton"
+                android:id="@+id/activities3"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:background="@drawable/exercise_icon"
+                android:background="@drawable/book_content_solid_08"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.206"
@@ -107,24 +117,24 @@
             app:layout_constraintVertical_bias="0.001">
 
             <TextView
-                android:id="@+id/testtest"
-                android:layout_width="76dp"
-                android:layout_height="29dp"
-                android:text="Foodie"
+                android:id="@+id/category3"
+                android:layout_width="227dp"
+                android:layout_height="79dp"
+                android:text="Go to the gym (+15xp)"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.469"
+                app:layout_constraintHorizontal_bias="0.845"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.604" />
+                app:layout_constraintVertical_bias="0.838" />
 
             <Button
-                android:id="@+id/rewardsFoodieButton"
+                android:id="@+id/activities1"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:background="@drawable/foodicon"
+                android:background="@drawable/book_content_solid_08"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.206"

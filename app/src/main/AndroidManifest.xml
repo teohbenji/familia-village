@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".ActivitiesHomePage"/>
         <activity android:name=".ActivitiesNaturePage"/>
+        <activity android:name=".ActivitiesSportsPage"/>
         <activity android:name=".SettingsPage"/>
         <activity android:name=".QRCodePage"/>
         <activity android:name=".RewardsHomePage"/>
