@@ -24,6 +24,7 @@
         <activity android:name=".QRCodePage"/>
         <activity android:name=".RewardsHomePage"/>
         <activity android:name=".RewardsFoodiePage"/>
+        <activity android:name=".RewardsLifestylePage"/>
         <activity android:name=".RewardsTechnologyPage"/>
         <activity android:name=".VillagePage"/>
     </application>

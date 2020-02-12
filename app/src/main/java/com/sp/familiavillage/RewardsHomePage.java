@@ -13,6 +13,7 @@ public class RewardsHomePage extends AppCompatActivity {
         setContentView(R.layout.rewards_home_page);
         findViewById(R.id.rewardsTechnologyButton).setOnClickListener(onTechnology);
         findViewById(R.id.rewardsFoodieButton).setOnClickListener(onFoodie);
+        findViewById(R.id.rewardsLifestyleButton).setOnClickListener(onLifestyle);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 
@@ -26,6 +27,15 @@ public class RewardsHomePage extends AppCompatActivity {
         }
     };
 
+    public View.OnClickListener onLifestyle =  new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            intent = new Intent(RewardsHomePage.this, RewardsLifestylePage.class);
+            startActivity(intent);
+        }
+    };
 
     public View.OnClickListener onFoodie =  new View.OnClickListener() {
 
