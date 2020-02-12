@@ -10,7 +10,7 @@ public class ActivitiesFoodiePage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activities_nature_page);
+        setContentView(R.layout.activities_foodie_page);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 
