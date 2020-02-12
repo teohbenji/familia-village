@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
 public class RewardsHomePage extends AppCompatActivity {
 
@@ -11,7 +12,7 @@ public class RewardsHomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rewards_home_page);
-        findViewById(R.id.foodieButton).setOnClickListener(onFoodie);
+        findViewById(R.id.foodieRewardsButton).setOnClickListener(onFoodie);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
 
