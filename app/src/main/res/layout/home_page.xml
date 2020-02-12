@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="0.275" />
 
     <Button
-        android:id="@+id/awards"
+        android:id="@+id/rewards"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="70dp"
         android:layout_height="70dp"

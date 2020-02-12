@@ -13,7 +13,7 @@ public class HomePage extends AppCompatActivity {
         findViewById(R.id.settings).setOnClickListener(onSettings);
         findViewById(R.id.village).setOnClickListener(onVillage);
         findViewById(R.id.activities).setOnClickListener(onActivities);
-        findViewById(R.id.awards).setOnClickListener(onRewards);
+        findViewById(R.id.rewards).setOnClickListener(onRewards);
         findViewById(R.id.QR_scanner).setOnClickListener(onQR);
     }
 
@@ -42,7 +42,7 @@ public class HomePage extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent intent;
-            intent = new Intent(HomePage.this, ActivitiesPage.class);
+            intent = new Intent(HomePage.this, ActivitiesHomePage.class);
             startActivity(intent);
         }
     };

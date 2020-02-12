@@ -6,20 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/activites_page"
-    tools:context=".ActivitiesPage">
+    tools:context=".ActivitiesHomePage">
 
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="359dp"
-        android:layout_height="86dp"
-        android:text="Select at least 2 activities per each category to complete this month to get extra 20xp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065" />
 
     <Button
         android:id="@+id/backButton"
@@ -51,7 +39,7 @@
             android:layout_height="142dp">
 
             <Button
-                android:id="@+id/activities2"
+                android:id="@+id/natureButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -69,8 +57,12 @@
                 android:layout_height="29dp"
                 android:text="Nature"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                tools:layout_editor_absoluteX="149dp"
-                tools:layout_editor_absoluteY="57dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.46"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.504" />
 
         </android.support.constraint.ConstraintLayout>
 
@@ -82,7 +74,7 @@
                 android:id="@+id/category2"
                 android:layout_width="177dp"
                 android:layout_height="33dp"
-                android:text="Active Lifestyle"
+                android:text="Sports"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +84,7 @@
                 app:layout_constraintVertical_bias="0.503" />
 
             <Button
-                android:id="@+id/activities3"
+                android:id="@+id/sportsButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -127,7 +119,7 @@
                 app:layout_constraintVertical_bias="0.604" />
 
             <Button
-                android:id="@+id/activities1"
+                android:id="@+id/foodieButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -141,6 +133,13 @@
 
 
         </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:text="Complete at least 2 activities from each category to earn extra 30 xp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
