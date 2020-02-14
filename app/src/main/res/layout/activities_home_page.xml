@@ -135,19 +135,13 @@
 
         </android.support.constraint.ConstraintLayout>
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="398dp"
+            android:layout_height="86dp"
+            android:text="Complete at least 2 activities from each category to earn 30 xp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="398dp"
-        android:layout_height="86dp"
-        android:text="Complete at least 2 activities from each category to earn extra 30 xp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
