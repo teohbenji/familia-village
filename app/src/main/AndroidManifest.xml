@@ -16,12 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActivitiesFoodiePage"/>
         <activity android:name=".ActivitiesHomePage"/>
         <activity android:name=".ActivitiesNaturePage"/>
+        <activity android:name=".ActivitiesSportsPage"/>
         <activity android:name=".SettingsPage"/>
         <activity android:name=".QRCodePage"/>
         <activity android:name=".RewardsHomePage"/>
         <activity android:name=".RewardsFoodiePage"/>
+        <activity android:name=".RewardsLifestylePage"/>
+        <activity android:name=".RewardsTechnologyPage"/>
         <activity android:name=".VillagePage"/>
     </application>
 

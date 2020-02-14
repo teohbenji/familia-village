@@ -39,7 +39,7 @@
             android:layout_height="142dp">
 
             <Button
-                android:id="@+id/natureButton"
+                android:id="@+id/activitiesNatureButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -84,7 +84,7 @@
                 app:layout_constraintVertical_bias="0.503" />
 
             <Button
-                android:id="@+id/sportsButton"
+                android:id="@+id/activitiesSportsButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -94,6 +94,7 @@
                 app:layout_constraintHorizontal_bias="0.205"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
         </android.support.constraint.ConstraintLayout>
 
         <android.support.constraint.ConstraintLayout
@@ -119,7 +120,7 @@
                 app:layout_constraintVertical_bias="0.604" />
 
             <Button
-                android:id="@+id/foodieActivitiesButton"
+                android:id="@+id/activitiesFoodieButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -136,10 +137,11 @@
 
         <TextView
             android:id="@+id/description"
-            android:layout_width="match_parent"
+            android:layout_width="398dp"
             android:layout_height="86dp"
-            android:text="Complete at least 2 activities from each category to earn extra 30 xp"
+            android:text="Complete at least 2 activities from each category to earn 30 xp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

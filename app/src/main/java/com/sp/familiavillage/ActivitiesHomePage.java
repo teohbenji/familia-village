@@ -11,7 +11,9 @@ public class ActivitiesHomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activities_home_page);
-        findViewById(R.id.natureButton).setOnClickListener(onNature);
+        findViewById(R.id.activitiesNatureButton).setOnClickListener(onNature);
+        findViewById(R.id.activitiesSportsButton).setOnClickListener(onSports);
+        findViewById(R.id.activitiesFoodieButton).setOnClickListener(onFoodie);
         findViewById(R.id.backButton).setOnClickListener(onBack);
     }
     public View.OnClickListener onNature =  new View.OnClickListener() {
@@ -20,6 +22,26 @@ public class ActivitiesHomePage extends AppCompatActivity {
         public void onClick(View v) {
             Intent intent;
             intent = new Intent(ActivitiesHomePage.this, ActivitiesNaturePage.class);
+            startActivity(intent);
+        }
+    };
+
+    public View.OnClickListener onSports =  new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            intent = new Intent(ActivitiesHomePage.this, ActivitiesSportsPage.class);
+            startActivity(intent);
+        }
+    };
+
+    public View.OnClickListener onFoodie =  new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            intent = new Intent(ActivitiesHomePage.this, ActivitiesFoodiePage.class);
             startActivity(intent);
         }
     };
